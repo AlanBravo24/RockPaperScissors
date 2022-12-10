@@ -1,0 +1,97 @@
+* {
+    text-align: center ;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Main Section */
+h1 {
+  font-family: "Lobster", cursive; 
+  font-weight: bold;
+}
+
+.wins {
+    right: 5rem;
+    top: 10rem;
+}
+.losses {
+    right: 5rem;
+    top: 12rem;
+}
+
+
+.draws {
+    right: 5rem;
+    top: 14rem;
+}
+.computer_img {
+padding-top: 2rem;
+padding-bottom: 2rem;
+width: 45%;
+}
+
+.right-side {
+    text-align: left;
+}
+
+.score {
+    margin-top: 5rem;
+}
+
+#main_section {
+    background-color: cornflowerblue;
+    padding-top: 2rem;
+}
+
+span {
+    font-family: "Lobster", cursive;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: block;
+}
+
+
+
+/* Button Section */
+.btn {
+    width: 10rem;
+    height: 4rem;
+    margin: 2rem 0rem 0rem 0rem;
+    padding-bottom: 1rem;
+
+}
+
+#buttons_section {
+    background-color: rgb(119, 162, 240);
+    padding: 0 auto 0 auto ;
+    padding-bottom:12.962px;
+
+}
+
+@media (max-width: 1028px) {
+    #buttons_section {
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .right-side {
+        text-align: center;
+    }
+    span {
+        margin-top: 3%;
+    }
+    .score {
+        margin-top: 3%;
+    }
+    .computer_img {
+        padding-bottom: 1%;
+    }
+    .btn {
+        width: 10rem;
+        height: 3rem;
+        padding: 0;
+        margin: .5rem;
+    }
+}
